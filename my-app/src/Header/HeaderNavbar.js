@@ -1,4 +1,6 @@
 
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -11,13 +13,7 @@ function NavScrollExample() {
     <Navbar expand="lg" bg="dark" data-bs-theme="dark">
       <Container >
         <Navbar.Brand className='fw-bolder fs-2 text-light'href="#home">
-            <img
-              src="/img/logo.png"
-              width="60"
-              height="60"
-              className="d-inline-block align-top"
-              alt="React Bootstrap logo"
-            />
+        <FontAwesomeIcon icon={faGraduationCap} />Bright
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll"/>
         <Navbar.Collapse id="navbarScroll">
