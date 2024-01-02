@@ -8,7 +8,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function NavScrollExample() {
+function Header() {
   return (
     <Navbar expand="lg" bg="dark" data-bs-theme="dark">
       <Container >
@@ -52,4 +52,4 @@ function NavScrollExample() {
   );
 }
 
-export default NavScrollExample;
+export default Header;
