@@ -1,20 +1,18 @@
 
-import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Image } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import logo from "../../src/Images/logo.png";
 
 function Header() {
   return (
     <Navbar expand="lg" bg="dark" data-bs-theme="dark">
       <Container >
-        <Navbar.Brand className='fw-bolder fs-2 text-light'href="#home">
-        <FontAwesomeIcon icon={faGraduationCap} />Bright
-          </Navbar.Brand>
+      <Navbar.Brand href="/"><Image src={logo} alt='' rounded /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll"/>
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -22,20 +20,20 @@ function Header() {
             style={{ maxHeight: '300px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Ana Sayfa</Nav.Link>
-            <Nav.Link href="#action2">İletişim</Nav.Link>
-           <Nav.Link href="#"> Hakkımızda</Nav.Link>
-            <NavDropdown title="Eğitimler" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Front-End Developer</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
+            <Nav.Link href="/">Ana Sayfa</Nav.Link>
+            <Nav.Link href="Contact">İletişim</Nav.Link>
+           <Nav.Link href="About"> Hakkımızda</Nav.Link>
+            <NavDropdown title="Eğitimlerimiz" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="Education">Front-End Developer</NavDropdown.Item>
+              <NavDropdown.Item href="Education">
                 Back-End Developer
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
+              <NavDropdown.Item href="Education">
                 Fullstack Developer
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#action2">Eğitmenler</Nav.Link>
+            <Nav.Link href="Teacher">Eğitmenler</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
