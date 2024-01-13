@@ -1,8 +1,15 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
+import Teach from '../../Components/Teach'
 
 const Teacher = () => {
   return (
-    <div>Teacher</div>
+    <>
+    <Container fluid className='page'>
+        <Teach/>
+
+    </Container>
+    </>
   )
 }
 

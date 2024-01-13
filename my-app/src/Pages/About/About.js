@@ -4,8 +4,8 @@ import './AboutPage.css'
 const About = () => {
   return (
     <>
-      <Container className='d-flex flex-column justify-content-center align-items-center m-2'>
-<div className='ms-3'
+      <Container fluid className='d-flex flex-column justify-content-center align-items-center  page m-0 p-0 fluid'>
+<div className='ms-3 text-light'
 >
   <h3 className='m-2'>Bahçeşehir Üniversitesi | Wissen</h3>
 Wissen, Türkiye’nin en önemli eğitim kurumlarından olan Bahçeşehir Üniversitesi’ne bilgi teknolojileri ile ilgili sektörel eğitim programlarında içerik olarak danışmanlık veren bir kurumdur. Kurum kültürü olarak “eğitimden daha fazlası” sloganını kendine ilke edinmiş olan Wissen, Bahçeşehir Üniversitesi’nin akademik başarısıyla bu alandaki profesyonelliğini her yıl binlerce kişiye eğitim verdirerek sürdürmektedir. Bu sayede adayların, başarılı bir kariyer oluşturmasını sağlamaktadır. Bu zamana kadar verdiği danışmanlıkların ve şu anda da devam eden programlarının, Türkiye’nin teknolojik yatırımlarının geleceği ve başarısı açısından son derece önemli olduğunun farkında olarak eğitimlere devam edilmektedir.
