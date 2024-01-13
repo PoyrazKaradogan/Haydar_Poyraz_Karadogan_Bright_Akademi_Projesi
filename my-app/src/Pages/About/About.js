@@ -7,7 +7,7 @@ const About = () => {
       <Container fluid className='d-flex flex-column justify-content-center align-items-center  page m-0 p-0 fluid'>
 <div className='ms-3 text-light'
 >
-  <h3 className='m-2'>Bahçeşehir Üniversitesi | Wissen</h3>
+  <h3 className='m-2 text-danger'>Bahçeşehir Üniversitesi | Wissen</h3>
 Wissen, Türkiye’nin en önemli eğitim kurumlarından olan Bahçeşehir Üniversitesi’ne bilgi teknolojileri ile ilgili sektörel eğitim programlarında içerik olarak danışmanlık veren bir kurumdur. Kurum kültürü olarak “eğitimden daha fazlası” sloganını kendine ilke edinmiş olan Wissen, Bahçeşehir Üniversitesi’nin akademik başarısıyla bu alandaki profesyonelliğini her yıl binlerce kişiye eğitim verdirerek sürdürmektedir. Bu sayede adayların, başarılı bir kariyer oluşturmasını sağlamaktadır. Bu zamana kadar verdiği danışmanlıkların ve şu anda da devam eden programlarının, Türkiye’nin teknolojik yatırımlarının geleceği ve başarısı açısından son derece önemli olduğunun farkında olarak eğitimlere devam edilmektedir.
 
 
@@ -34,7 +34,7 @@ Bütün bu bilgiler ve profesyonel hayatın ihtiyaçları doğrultusunda Wissen 
 Nitelikli Bilgi Teknolojileri Uzmanı Yetiştirme Programı
 Bahçeşehir Üniversitesi ve Çalışma ve Sosyal Güvenlik Bakanlığı iş birliği ile oluşturulan, %100 devlet finansmanlı oluşturulan bilgi teknolojileri uzmanlığı eğitimleridir. Bu eğitimler ile sayısal ilgili lisans mezunu çalışmayan adaylar, %100 burslu olarak , Java Programlama ve Veritabanı Eğitimi, Microsoft Yazılım ve Veritabanı Eğitimi, Microsoft Sistem ve Network Eğitimi, Cisco Network Eğitimeleri, Microsoft Dynamics ile ERP Eğitimleri alırlar. Katılımcıların eğitim boyunca genel sağlık sigortası devlet tarafından karşılanmaktadır. Ayrıca katılımcılar eğitim süresince maddi destek alarak, eğitim sonunda katılımcıların en az %60’ı istihdam edilmektedir. Bu eğitimlerle katılımcılar, alanlarında teknik açıdan uzmanlaşırlar. Eğitim aldıkları alanda proje geliştirme, sektör bilinci, iş bulma yetkinliği gibi konularda gelişim şansı yakalarlar. Ayrıca katılımcılara ücretsiz kariyer danışmanlığı sağlanarak iş görüşmesi deneyimi sağlanır ve eğitim sonunda işe yönlendirmeleri sağlanır.
 
-<h3 className='m-2' >Açık Sınıf Eğitimleri</h3>
+<h3 className='m-2 text-danger' >Açık Sınıf Eğitimleri</h3>
 
 
 
@@ -63,7 +63,7 @@ Google Cloud Platform: Fundamentals
 Kurumsal Eğitimler
 Wissen, büyük ve orta ölçekli firmalara, firmaların hedefleri ve ihtiyaçları doğrultusunda düzenlenen bu eğitimlerle, çalışanlar kendilerini değişen teknolojik gelişmelere adapte ederler. Bu kısımda Wissen; Can Sigorta, İstanbul Barosu, Danfoss, Ulaşım A.Ş, TEB, Albaraka Türk, Türk Telekom, İstanbul Şehir Hatları, Akbank, Süleyman Demirel Üniversitesi, HEGEM, PAVOTEK, Türkiye Turing ve Otomobil Kurumu, Doğuş Otomotiv, ARÇELİK, Turpak A. Ş., Türk Telekomünikasyon A.Ş., Türkiye Turing ve Otomobil Kurumu, ARKAN ERGİN, THY DO CO, Çaykur, İTKİB, Berner A.Ş, Garanti Bankası, Obase Bilgisayar, Analitik Bilişim, ETG, Hitachi, Microsoft, Softtech, Özyeğin Üniversitesi, Supplementler.com gibi firmalara kurumsal eğitim danışmanlıkları vermektedir.
 
-<h3  className='m-2' >CO-OP Eğitimleri</h3>
+<h3  className='m-2 text-danger' >CO-OP Eğitimleri</h3>
 Bahçeşehir Üniversitesi Mühendislik ve Doğa Bilimleri Fakültesi’nde okuyan adaylar için CO-OP Direktörlüğü iş birliği ile düzenlenen bu eğitimler ile öğrenciler, Android, iOS, Bilgi Güvenliği gibi alanlarda kendilerini geliştirme imkanı bulurlar. Bu kısımda Wissen, aşağıdaki alanlarda yılda ortalama 700 – 1000 kişiye eğitim danışmanlığı vermektedir;
 
 

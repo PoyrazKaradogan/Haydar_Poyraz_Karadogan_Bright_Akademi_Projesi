@@ -1,7 +1,7 @@
 import React from 'react'
 import Slider from "react-slick"
-
-
+import resim1 from "../Images/Eng.png"
+import resim2 from "../Images/thumbnail_IMG_1693.jpg"
 
 const Teach = () => {
   const settings = {
@@ -14,10 +14,10 @@ const Teach = () => {
   return (
 
     <div className='w-400  m-auto '>
-      <div className='mt-20 ms-5 me-5'>
+      <div className='mt-20 ms-5 me-5 '>
         <Slider {...settings}>
           {data.map((a) => (
-            <div className='bg-info text-black rounded-xl 'style={{height:"450px", width:"400x"}}>
+            <div className='bg-info text-black rounded-sm w-100 '>
               <div className='rounded-t-xl bg-primary flex justify content-center items '>
                 <img src={a.img} alt="resim" className='h-44 w-44 rounded-full' style={{height:"300px", borderRadius:"2em"}}/>
               </div>
@@ -38,28 +38,28 @@ const Teach = () => {
 const data = [
   {
     name: `Engin Niyazi ERGÜL`,
-    img: `../Images/Eng.png`,
+    img: resim1,
     rewiew: ` HTML, CSS, JavaScript, ReactJS, Node.JS,.NET,Phyton`
 
   },
 
   {
     name: `Poyraz KARADOĞAN`,
-    img: `../Images/instructor1.png`,
+    img: resim2,
     rewiew: `HTML, CSS, JavaScript, ReactJS, Node.JS,.NET,Phyton`
 
   },
 
   {
     name: `Serenay SARIKAYA`,
-    img: `../Images/instructor1.png`,
+    img: `../Images/Eng.png`,
     rewiew: `HTML, CSS, JavaScript, ReactJS, Node.JS,.NET,Phyton`
 
   },
 
   {
     name: `Çağatay ULUSOY`,
-    img: `../Images/instructor1.png`,
+    img: `../Images/Eng.png`,
     rewiew: `HTML, CSS, JavaScript, ReactJS, Node.JS,.NET,Phyton`
 
   }
