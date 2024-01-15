@@ -3,7 +3,7 @@
 }
 
 .page {
-  background: linear-gradient(45deg,
+  background: linear-gradient(80deg,
       #4a4a88,
       #730484,
       #0f0fa6,
@@ -12,7 +12,7 @@
       #66003b,
       #7c1e8a,
       #00003b);
-  animation: color-page 10s ease-in-out infinite;
+  animation: color-page 8s ease-in-out infinite;
   background-size: 300% 300%;
 }
 

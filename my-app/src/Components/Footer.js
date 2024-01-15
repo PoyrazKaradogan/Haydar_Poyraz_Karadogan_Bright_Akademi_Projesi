@@ -11,9 +11,10 @@ const Footer = () => {
                     <ButtonGroup className='mb-1'>
                      
             <Button variant='light' className='rounded-circle p-1 btn-float' href='https://github.com'><i className="fa-brands fa-github fs-3"></i></Button>
-                        <Button variant='light' className='rounded-circle p-1 btn-float' href='https://github.com'><i className="fa-brands fa-linkedin fs-3"></i></Button>
-                        <Button variant='light' className='rounded-circle p-1 btn-float' href='https://github.com'><i className="fa-brands fa-whatsapp fs-3"></i></Button>
-                    </ButtonGroup>
+                        <Button variant='light' className='rounded-circle p-1 btn-float  w-5' href='https://github.com'><i className="fa-brands fa-linkedin fs-3"></i></Button>
+                        <Button variant='light' className='rounded-circle p-1 btn-float' hef='https://github.com'><i className="fa-brands fa-whatsapp fs-3"></i></Button>
+                        <Button variant='light' className='rounded-circle p-1 btn-float' href='https://github.com'><i className="fa-brands fa-instagram fs-3"></i></Button>
+                    </ButtonGroup>w
                     <div className='w-25 m-auto pt-3 footer-end'>Copyright &copy; 2023 Haydar KARADOĞAN. </div>
                 </Container>
             </Container>

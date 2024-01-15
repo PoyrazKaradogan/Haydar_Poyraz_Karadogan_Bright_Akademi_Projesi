@@ -8,6 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from "../../Images/logo.png";
 import './Header.css'
+import About from '../../Pages/About/About';
 
 function HeaderNav () {
   return (
@@ -39,7 +40,7 @@ function HeaderNav () {
           <Form className="d-flex">
           
         
-            <Button src="../Pages/Contact/Contact" variant="outline-light me-5 fs-4 " style={{borderRadius:'2em', width:'200px'}}>Başvuru Yap</Button>
+            <Button src={About} variant="outline-light me-5 fs-4 " style={{borderRadius:'2em', width:'200px'}}>Başvuru Yap</Button>
           </Form>
         </Navbar.Collapse>
       </Container>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import Teach from '../../Components/Teach'
+ import Teach from '../../Components/Teach'
 
 const Teacher = () => {
   return (

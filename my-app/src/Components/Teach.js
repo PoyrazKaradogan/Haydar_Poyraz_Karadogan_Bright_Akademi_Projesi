@@ -1,68 +1,78 @@
-import React from 'react'
-import Slider from "react-slick"
-import resim1 from "../Images/Eng.png"
-import resim2 from "../Images/thumbnail_IMG_1693.jpg"
+import Carousel from 'react-bootstrap/Carousel';
+import resim1 from "../Images/EnginHoca.png"
+import resim2 from "../Images/poyraz.jpeg"
+import resim3 from "../Images/ilber.jpg"
+import resim4 from "../Images/serenay.jpg"
+import resim5 from "../Images/çağatay.jpg"
+import { Image } from 'react-bootstrap';
 
-const Teach = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3
-  }
+function DarkVariantExample() {
   return (
+    <Carousel data-bs-theme="dark">
+      <Carousel.Item>
+        <Image style={{width:"600px",height:"600px" ,justifyContent:"center" }}
+          className="d-block m-auto"
+          src= {resim1}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h2 className='text-white'>Engin Niyazi ERGÜL</h2>
+          <h3 className='text-white'>Senior Developer ve Usta Eğitmen</h3> 
+          <button className='btn btn-danger'>İletişim</button>
+        </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+        <Image style={{width:"600px",height:"600px", justifyContent:"center" }}
+          className="d-block m-auto"
+          src= {resim2}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h2 className='text-white'>Poyraz KARADOĞAN</h2>
+          <h3 className='text-white'>Senior Developer</h3>
+          <button className='btn btn-danger'>İletişim</button>
+        </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+        <Image style={{width:"600px",height:"600px" ,justifyContent:"center" }}
+          className="d-block m-auto"
+          src= {resim3}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h2 className='text-white'>İlber ORTAYLI</h2>
+          <h3 className='text-white'>Senior Database Uzmanu</h3>
+          <button className='btn btn-danger'>İletişim</button>
+        </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+        <Image style={{width:"600px",height:"600px", justifyContent:"center" }}
+          className="d-block m-auto"
+          src= {resim4}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h2 className='text-white'>Serenay SARIKAYA</h2>
+          <h3 className='text-white'>Network Uzmanı</h3>
+          <button className='btn btn-danger'>İletişim</button>
+        </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+        <Image style={{width:"600px",height:"600px", justifyContent:"center" }}
+          className="d-block m-auto"
+          src= {resim5}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h2 className='text-white'>Çağatay ULUSOY</h2>
+          <h3 className='text-white'>Konu Mankeni</h3>
+          <button className='btn btn-danger'>İletişim</button>
+        </Carousel.Caption>
+        </Carousel.Item>
 
-    <div className='w-400  m-auto '>
-      <div className='mt-20 ms-5 me-5 '>
-        <Slider {...settings}>
-          {data.map((a) => (
-            <div className='bg-info text-black rounded-sm w-100 '>
-              <div className='rounded-t-xl bg-primary flex justify content-center items '>
-                <img src={a.img} alt="resim" className='h-44 w-44 rounded-full' style={{height:"300px", borderRadius:"2em"}}/>
-              </div>
-
-              <div className='flex flex-col justify-center items-center gap-4 p-4'>
-                <p className='text-xl' style={{font:"caption"}}>{a.name} </p>
-                <p>{a.rewiew}</p>
-                <button className='bg-primary text-white text-xl px-6 py-2 rounded-xl text-center mt-2 mb-2'style={{borderRadius:"2em", width:"150px"}}>Başvur</button>
-              </div>
-            </div>
-          ))}
-        </Slider>
-      </div>
-    </div>
-  )
+    </Carousel>
+    
+  );
 }
 
-const data = [
-  {
-    name: `Engin Niyazi ERGÜL`,
-    img: resim1,
-    rewiew: ` HTML, CSS, JavaScript, ReactJS, Node.JS,.NET,Phyton`
-
-  },
-
-  {
-    name: `Poyraz KARADOĞAN`,
-    img: resim2,
-    rewiew: `HTML, CSS, JavaScript, ReactJS, Node.JS,.NET,Phyton`
-
-  },
-
-  {
-    name: `Serenay SARIKAYA`,
-    img: `../Images/Eng.png`,
-    rewiew: `HTML, CSS, JavaScript, ReactJS, Node.JS,.NET,Phyton`
-
-  },
-
-  {
-    name: `Çağatay ULUSOY`,
-    img: `../Images/Eng.png`,
-    rewiew: `HTML, CSS, JavaScript, ReactJS, Node.JS,.NET,Phyton`
-
-  }
-]
-
-export default Teach
+export default DarkVariantExample;
