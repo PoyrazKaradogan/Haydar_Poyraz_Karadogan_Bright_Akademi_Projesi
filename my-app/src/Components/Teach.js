@@ -18,7 +18,7 @@ function DarkVariantExample() {
         <Carousel.Caption>
           <h2 className='text-white'>Engin Niyazi ERGÜL</h2>
           <h3 className='text-white'>Senior Developer ve Usta Eğitmen</h3> 
-          <button className='btn btn-danger'>İletişim</button>
+          <a href='/contact' className='btn btn-danger'>İletişim</a>
         </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -30,7 +30,7 @@ function DarkVariantExample() {
         <Carousel.Caption>
           <h2 className='text-white'>Poyraz KARADOĞAN</h2>
           <h3 className='text-white'>Senior Developer</h3>
-          <button className='btn btn-danger'>İletişim</button>
+          <a href='/contact' className='btn btn-danger'>İletişim</a>
         </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -42,7 +42,7 @@ function DarkVariantExample() {
         <Carousel.Caption>
           <h2 className='text-white'>İlber ORTAYLI</h2>
           <h3 className='text-white'>Senior Database Uzmanu</h3>
-          <button className='btn btn-danger'>İletişim</button>
+          <a href='/contact' className='btn btn-danger'>İletişim</a>
         </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -54,7 +54,7 @@ function DarkVariantExample() {
         <Carousel.Caption>
           <h2 className='text-white'>Serenay SARIKAYA</h2>
           <h3 className='text-white'>Network Uzmanı</h3>
-          <button className='btn btn-danger'>İletişim</button>
+          <a href='/contact' className='btn btn-danger'>İletişim</a>
         </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -66,7 +66,7 @@ function DarkVariantExample() {
         <Carousel.Caption>
           <h2 className='text-white'>Çağatay ULUSOY</h2>
           <h3 className='text-white'>Konu Mankeni</h3>
-          <button className='btn btn-danger'>İletişim</button>
+          <a href='/contact' className='btn btn-danger'>İletişim</a>
         </Carousel.Caption>
         </Carousel.Item>
 

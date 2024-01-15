@@ -11,15 +11,25 @@ import { Container } from 'react-bootstrap';
 import FullStackDeveloper from './Pages/FullStackDeveloper.js';
 import FrontEndDeveloper from './Pages/FrontEndDeveloper.js';
 import BackEndDeveloper from './Pages/BackEndDeveloper.js';
+import { useState } from 'react';
 
 
 function App() {
+  const [validated, setValidated] = useState(false);
 
+    const handleSubmit = (event) => {
+      const form = event.currentTarget;
+      if (form.checkValidity() === false) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
   
+      setValidated(true);
+    }
   return (
     
     <>
-     <AppContext.Provider value={{}}>
+     <AppContext.Provider value={{validated,setValidated,handleSubmit,useState}}>
      <BrowserRouter>
      <Container fluid className='m-0 p-0' >
      <Header />

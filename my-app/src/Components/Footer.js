@@ -10,11 +10,11 @@ const Footer = () => {
                     <Image src={logo} style={{width:'180px', height:'57'}} className='mb-5' />
                     <ButtonGroup className='mb-1'>
                      
-            <Button variant='light' className='rounded-circle p-1 btn-float' href='https://github.com'><i className="fa-brands fa-github fs-3"></i></Button>
-                        <Button variant='light' className='rounded-circle p-1 btn-float  w-5' href='https://github.com'><i className="fa-brands fa-linkedin fs-3"></i></Button>
-                        <Button variant='light' className='rounded-circle p-1 btn-float' hef='https://github.com'><i className="fa-brands fa-whatsapp fs-3"></i></Button>
-                        <Button variant='light' className='rounded-circle p-1 btn-float' href='https://github.com'><i className="fa-brands fa-instagram fs-3"></i></Button>
-                    </ButtonGroup>w
+          
+                        <Button variant='light' className='rounded-circle p-1 btn-float  m-2' href='https://linkedin.com'><i className="fa-brands fa-linkedin fs-3"></i></Button>
+                        <Button variant='light' className='rounded-circle p-1 btn-float m-2' hef='https://whatsapp.com'><i className="fa-brands fa-whatsapp fs-3"></i></Button>
+                        <Button variant='light' className='rounded-circle p-1 btn-float m-2' href='https://instagram.com'><i className="fa-brands fa-instagram fs-3"></i></Button>
+                    </ButtonGroup>
                     <div className='w-25 m-auto pt-3 footer-end'>Copyright &copy; 2023 Haydar KARADOĞAN. </div>
                 </Container>
             </Container>

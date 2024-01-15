@@ -40,7 +40,7 @@ function HeaderNav () {
           <Form className="d-flex">
           
         
-            <Button src={About} variant="outline-light me-5 fs-4 " style={{borderRadius:'2em', width:'200px'}}>Başvuru Yap</Button>
+            <Button href='/contact' variant="outline-light me-5 fs-4 " style={{borderRadius:'2em', width:'200px'}}>Başvuru Yap</Button>
           </Form>
         </Navbar.Collapse>
       </Container>

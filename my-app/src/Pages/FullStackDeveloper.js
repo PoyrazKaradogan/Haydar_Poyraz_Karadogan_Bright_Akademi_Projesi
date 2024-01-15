@@ -80,7 +80,7 @@ Kısacası yazılıma merakı olan herkes...<hr style={{ border: '3px solid whit
           </div>
           <Row className='text-center'>
             <Col lg='12'>
-              <Button variant="outline-danger mb-2" shref='/Pages/Contact/Contact'style={{width:'200px', height:'70px'}}><h3>Başvuru Yap</h3></Button>
+              <Button variant="outline-danger mb-2" href='/Contact'style={{width:'200px', height:'70px'}}><h3>Başvuru Yap</h3></Button>
             </Col>
 
           </Row>
